@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import ReactPlayer from 'react-player';
-import VideoPlayer from 'react-video-js-player';
-import Plyr from 'react-plyr';
 import QierPlayer from 'qier-player';
 
     let quireProps = {
