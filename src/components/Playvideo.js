@@ -1,5 +1,4 @@
 import React, { Component }  from 'react';
-import Banner from './home/Banner';
 import Player from './Player/Player';
 import Promotion from './dashboard/Promotion';
 import Trending from './dashboard/Trendingseries';

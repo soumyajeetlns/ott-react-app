@@ -1,5 +1,4 @@
 import React, { Component }  from 'react';
-// import '../../../node_modules/bootstrap/dist/js/bootstrap';
 
 export default class Homesection2 extends Component{
   render() {

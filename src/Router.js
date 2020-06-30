@@ -6,10 +6,6 @@ import Login from './components/Login';
 import Register from './components/Register';
 import Dashboard from './components/Dashboard';
 import Video from './components/Playvideo';
-// import Tutorial from './components/Tutorial';
-// import Blog from './components/Blog';
-// import Blogdetails from './components/Blogdetails';
-// import Contact from './components/Contact';
 import {Switch, Route} from 'react-router-dom';
 
 function Router() {
@@ -22,10 +18,6 @@ function Router() {
             <Route path="/register" exact component={Register} />
             <Route path="/dashboard" exact component={Dashboard} />
             <Route path="/play" component={Video} />
-            {/* <Route path="/tutorial" component={Tutorial} />
-            <Route path="/blog" component={Blog} />
-            <Route path="/blogdetails" component={Blogdetails} />
-            <Route path="/contact" component={Contact} /> */}
           </Switch>
         <Footer/>
     </div>
